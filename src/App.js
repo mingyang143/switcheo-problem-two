@@ -1,5 +1,4 @@
 import "./App.css";
-import Header from "./Header";
 import Form from "./Form";
 import { useEffect, useState } from "react";
 
@@ -28,7 +27,6 @@ function App() {
   if (loading) return <p>Loading...</p>;
   return (
     <div className="App">
-      <Header />
       <Form currencyConvertData={currencyConvertData} />
     </div>
   );
